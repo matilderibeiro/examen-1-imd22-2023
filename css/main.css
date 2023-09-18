@@ -45,3 +45,25 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
+.introduction-text,
+nav,
+.information,
+.text-whats-new,
+.a {
+  font-family: 'Noto Serif', serif;
+}
+
+.introduction-text,
+nav,
+a,
+button {
+  color: #fff;
+}
+
+.introduction-text,
+h2,
+nav,
+.reference {
+  text-transform: uppercase;
+}
+
