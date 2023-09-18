@@ -181,3 +181,12 @@ h4 {
   display: flex;
   flex-direction: row;
 }
+
+footer {
+  background: black;
+}
+
+.end-title {
+  color: #313131;
+  background: black;
+}
