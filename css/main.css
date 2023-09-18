@@ -82,3 +82,27 @@ header {
   margin-top: 10px;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+  font-size: 50px;
+}
+
+.title-whats-on,
+.title-whats-new {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
