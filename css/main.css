@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  stroke:none;
 }
 
 /* ====================================
@@ -17,12 +18,21 @@
 
 html {
   font-size: 16px;
+  background-color: grey;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  max-width: 428px;
+  height: 2336px;
+  margin: auto;
+  background: #fff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 a {
