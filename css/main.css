@@ -67,3 +67,18 @@ nav,
   text-transform: uppercase;
 }
 
+header {
+  background: #D7A1FD;
+  padding: 20px;
+}
+
+.principal-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.introduction-text {
+  margin-top: 10px;
+}
+
