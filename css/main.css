@@ -131,3 +131,33 @@ button {
   font-style: italic;
   padding: 20px;
 }
+
+.container-sitation {
+  background: #98FB00;
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+
+.container-all-whats-new {
+  background: #F4EDE8;
+}
+
+h4 {
+  background: #D7A1FD;
+  padding: 20px;
+}
+
+.options-opportunities {
+  background: #98FB00;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px 10px 20px 10px;
+  text-align: left;
+  font-style: italic;
+}
+
+.container-opportunities {
+  display: flex;
+  flex-direction: row;
+}
