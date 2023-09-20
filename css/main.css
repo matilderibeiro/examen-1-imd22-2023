@@ -239,10 +239,22 @@ h4 {
 }
 
 footer {
-  background: black;
+  background: var(--black);
 }
 
 .end-title {
   color: #313131;
-  background: black;
+  background: var(--black);
+}
+
+.title-contact-comms,
+.a-contact-comms {
+  font-size: 13px;
+}
+
+.container-contact-comms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 112px;
 }
