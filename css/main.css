@@ -21,22 +21,18 @@
 }
 
 html {
+  width: 428px;
   font-size: 16px;
-  background-color: grey;
+  margin: auto;
+  background-color: #313131;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  max-width: 428px;
-  height: 2336px;
-  margin: auto;
-  background: #fff;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  background: var(--white);
   text-align: center;
-  text-decoration: none;
 }
 
 a {
@@ -61,19 +57,21 @@ button,
 }
 
 h2,
-.introduction-text,
 nav,
+p,
+.introduction-text,
 .information,
 .text-whats-new,
-.a {
+a {
   font-family: 'Noto Serif', serif;
 }
 
+.title-contact-comms,
 .introduction-text,
 nav,
 a,
 button {
-  color: #fff;
+  color: var(--white);
 }
 
 .introduction-text,
