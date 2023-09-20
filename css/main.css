@@ -186,7 +186,32 @@ button {
 }
 
 .container-all-whats-new {
-  background: #F4EDE8;
+  background: var(--beige);
+}
+
+.container-all-whats-new .container-whats-new {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.container-all-whats-new .suggestion {
+  background: var(--white);
+  width: 49%;
+  border-radius: 20px;
+  margin: 12px 12px 60px 12px;
+  text-align: left;
+}
+
+.container-all-whats-new p {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.container-all-whats-new img {
+  border-radius: 20px 20px 0 0;
 }
 
 h4 {
