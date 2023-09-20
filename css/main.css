@@ -80,15 +80,15 @@ nav,
 .reference {
   text-transform: uppercase;
 }
-
+ 
 header {
-  background: #D7A1FD;
+  background: var(--violet);
   padding: 20px;
 }
 
 .principal-title {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -99,7 +99,7 @@ header {
 nav {
   display: flex;
   flex-direction: row;
-  background: black;
+  background: var(--black);
   justify-content: space-around;
   padding: 20px;
 }
@@ -114,10 +114,35 @@ h4 {
   font-size: 50px;
 }
 
-.title-whats-on,
-.title-whats-new {
+h1 span {
+  font-family: 'Noto Serif';
+  font-weight: 300;
+}
+
+h2 {
   margin-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.container-programme {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-whats-on {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 20px;
+}
+
+.container-whats-on .whats-on-div {
+  width: 49%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .whats-on-div img {
