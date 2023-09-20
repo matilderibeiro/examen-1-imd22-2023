@@ -146,13 +146,15 @@ h2 {
 }
 
 .whats-on-div img {
-  border-bottom: solid 7px #D7A1FD;
+  border-bottom: solid 7px var(--violet);
 }
 
 .container-whats-on .info-div-whats-on {
   border-width: 1px;
   border-style: solid;
-  border-color: black;
+  border-color: var(--black);
+  padding: 20px;
+  border-top: 0;
 }
 
 .information,
@@ -160,17 +162,12 @@ h2 {
   padding: 5px;
 }
 
-.container-whats-on .whats-on-div{
-  display: flex;
-  flex-direction: row;
-}
-
 button {
-  background: black;
+  background: var(--black);
   font-style: italic;
-  color: #D7A1FD;
+  color: var(--violet);
   padding: 15px 30px 15px 30px;
-  margin: 30px 97px 0 97px;
+  margin: 15px 97px 0 97px;
 }
 
 .sitation {
@@ -180,7 +177,7 @@ button {
 }
 
 .container-sitation {
-  background: #98FB00;
+  background: var(--green);
   margin-top: 60px;
   padding-bottom: 10px;
 }
@@ -214,8 +211,15 @@ button {
   border-radius: 20px 20px 0 0;
 }
 
+.container-all-whats-new .uppercase {
+  font-family: Nunito Sans;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 h4 {
-  background: #D7A1FD;
+  background: var(--violet);
   padding: 20px;
 }
 
